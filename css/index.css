@@ -134,3 +134,11 @@ html,
 body {
   height: 100%;
 }
+.container {
+  font-size: 16px;
+  font-family: "Georgia Regular", "Palatino", serif;
+  background-color: #adadad;
+  color: #501b1d;
+  width: 100%;
+  line-spacing: 1.5px;
+}

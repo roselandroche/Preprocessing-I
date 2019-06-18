@@ -57,3 +57,36 @@ html, body {
 	height: 100%;
 }
 
+@tamarind: #2e1114;
+
+@cocoa-bean: #501b1d;
+
+@eggplant: #64485c;
+
+@old-lavender: #83677b;
+
+@silver-chalice: #adadad;
+
+.special () {
+	font-family: "Georgia Regular", "Palatino", serif;
+	font-size: 48;
+	background-color: @eggplant;
+	color: @tamarind;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.standard () {
+	font-size: 16px;
+	font-family: "Georgia Regular", "Palatino", serif;
+	background-color: @silver-chalice;
+	color: @cocoa-bean;
+	width: 100%;
+	line-spacing: 1.5px;
+}
+
+.container {
+	.standard();
+}
