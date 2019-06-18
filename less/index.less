@@ -67,26 +67,33 @@ html, body {
 
 @silver-chalice: #adadad;
 
+@resume-font: "Georgia Regular", "Palatino", serif;
+
 .special () {
-	font-family: "Georgia Regular", "Palatino", serif;
-	font-size: 48;
-	background-color: @eggplant;
-	color: @tamarind;
+	font-family: @resume-font;
+	background-color: @tamarind;
+	color: @silver-chalice;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	width: 0 auto;
+	text-align: center;
 }
 
 .standard () {
-	font-size: 16px;
-	font-family: "Georgia Regular", "Palatino", serif;
+	font-family: @resume-font;
 	background-color: @silver-chalice;
 	color: @cocoa-bean;
-	width: 100%;
-	line-spacing: 1.5px;
 }
 
 .container {
 	.standard();
+
+	header {
+		.special();
+		width: 60%;
+		height: 300px;
+		padding: 50px auto;
+	}
 }
