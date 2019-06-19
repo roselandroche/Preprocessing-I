@@ -137,14 +137,14 @@ body {
 }
 .container {
   font-family: "Georgia Regular", "Palatino", serif;
-  background-color: #adadad;
-  color: #501b1d;
+  background-color: #83677b;
+  color: #2e1114;
   font-size: 1.6rem;
 }
 .container header {
   font-family: "Georgia Regular", "Palatino", serif;
-  background-color: #64485c;
-  color: #2e1114;
+  background-color: #2e1114;
+  color: #adadad;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -205,18 +205,14 @@ body {
 }
 .container footer {
   font-family: "Georgia Regular", "Palatino", serif;
-  background-color: #64485c;
-  color: #2e1114;
+  background-color: #2e1114;
+  color: #adadad;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
   padding: 20px 0;
-}
-.container footer nav {
-  display: flex;
-  align-items: space-between;
 }
 .container footer nav a {
   text-decoration: none;
