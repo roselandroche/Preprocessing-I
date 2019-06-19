@@ -195,9 +195,11 @@ body {
   .container header .contact-button {
     display: block;
     border-radius: 12px;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     background-color: #adadad;
     color: #2e1114;
+    width: 100%;
+    padding: 10px;
   }
 }
 .container header .contact {
