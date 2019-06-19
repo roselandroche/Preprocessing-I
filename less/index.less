@@ -98,19 +98,21 @@ html, body {
 		padding: 20px 50px;
 		margin: 0 auto;
 
+		@media (max-width: 500px) {
+			width: 100%;
+			height: auto;
+		}
+
 		nav {
 			width: 100%;
 			display: flex;
 			justify-content: space-between;
 			margin-bottom: 40px;
 
-			
-
 			a {
 				text-decoration: none;
 				color: @silver-chalice;
 
-				
 			}
 		}
 		
@@ -135,11 +137,24 @@ html, body {
 			}
 		}
 		
+		.contact-button {
+			display: none;
+
+			@media (max-width: 500px) {
+				display: block;
+			}
+		}
+
 		.contact {
 			width: 100%;
 			color: @silver-chalice;
 			display: flex;
 			justify-content: space-between;
+
+			@media (max-width: 500px) {
+				display: none;
+
+			}
 		}
 	}
 	main {

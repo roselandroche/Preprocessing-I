@@ -155,6 +155,12 @@ body {
   padding: 20px 50px;
   margin: 0 auto;
 }
+@media (max-width: 500px) {
+  .container header {
+    width: 100%;
+    height: auto;
+  }
+}
 .container header nav {
   width: 100%;
   display: flex;
@@ -182,11 +188,24 @@ body {
   padding-top: 20px;
   padding-bottom: 36px;
 }
+.container header .contact-button {
+  display: none;
+}
+@media (max-width: 500px) {
+  .container header .contact-button {
+    display: block;
+  }
+}
 .container header .contact {
   width: 100%;
   color: #adadad;
   display: flex;
   justify-content: space-between;
+}
+@media (max-width: 500px) {
+  .container header .contact {
+    display: none;
+  }
 }
 .container main {
   padding: 20px;
