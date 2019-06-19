@@ -216,7 +216,7 @@ body {
 }
 .container footer nav {
   display: flex;
-  align-items: space-around;
+  align-items: space-between;
 }
 .container footer nav a {
   text-decoration: none;
