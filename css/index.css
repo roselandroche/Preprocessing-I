@@ -150,7 +150,7 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  width: 60%;
+  width: 100%;
   height: 340px;
   padding: 20px 50px;
   margin: 0 auto;
@@ -182,4 +182,28 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
+}
+.container main {
+  padding: 20px;
+  width: 80%;
+  margin: 0 auto;
+}
+.container main section {
+  box-shadow: 0 8px 6px -6px #83677b;
+  margin: 20px 0;
+}
+.container main h3 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+.container footer {
+  font-family: "Georgia Regular", "Palatino", serif;
+  background-color: #64485c;
+  color: #2e1114;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px 0;
 }
