@@ -165,7 +165,8 @@ body {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
+  padding-top: 15px;
 }
 .container header nav a {
   text-decoration: none;
@@ -207,6 +208,7 @@ body {
   color: #adadad;
   display: flex;
   justify-content: space-between;
+  padding-bottom: 15px;
 }
 @media (max-width: 500px) {
   .container header .contact {
