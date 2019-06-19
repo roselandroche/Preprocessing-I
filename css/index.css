@@ -160,7 +160,6 @@ body {
   display: flex;
   justify-content: space-between;
   margin-bottom: 40px;
-  align-items: flex-start;
 }
 .container header nav a {
   text-decoration: none;
@@ -188,7 +187,6 @@ body {
   color: #adadad;
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
 }
 .container main {
   padding: 20px;
