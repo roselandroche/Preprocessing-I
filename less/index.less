@@ -54,6 +54,148 @@ table {
 }
 
 html, body {
-    height: 100%;
+	height: 100%;
+	font-size: 62.5%;
 }
 
+@tamarind: #2e1114;
+
+@cocoa-bean: #501b1d;
+
+@eggplant: #64485c;
+
+@old-lavender: #83677b;
+
+@silver-chalice: #adadad;
+
+@resume-font: "Georgia Regular", "Palatino", serif;
+
+.special () {
+	font-family: @resume-font;
+	background-color: @tamarind;
+	color: @silver-chalice;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.standard () {
+	font-family: @resume-font;
+	background-color: @old-lavender;
+	color: @tamarind;
+}
+
+.container {
+	.standard();
+	font-size: 1.6rem;
+
+	header {
+		.special();
+		width: 70%;
+		height: 340px;
+		padding: 20px 50px;
+		margin: 0 auto;
+
+		@media (max-width: 500px) {
+			width: 100%;
+			height: auto;
+		}
+
+		nav {
+			width: 100%;
+			display: flex;
+			justify-content: space-between;
+			margin-bottom: 30px;
+			padding-top: 15px;
+
+			a {
+				text-decoration: none;
+				color: @silver-chalice;
+
+			}
+		}
+		
+		.header-middle {
+			margin: 40px auto;
+
+			h1 {
+				font-size: 3rem;
+				padding-bottom: 16px;
+			}
+	
+			h2 {
+				font-size: 2.0rem;
+				padding-top: 20px;
+				padding-bottom: 24px;
+			}
+	
+			p {
+				color: @old-lavender;
+				padding-top: 20px;
+				padding-bottom: 36px;
+			}
+		}
+		
+		.contact-button {
+			display: none;
+
+			@media (max-width: 500px) {
+				display: block;
+				border-radius: 12px;
+				font-size: 1.6rem;
+				background-color: @silver-chalice;
+				color: @tamarind;
+				width: 100%;
+				padding: 10px;
+			}
+		}
+
+		.contact {
+			width: 100%;
+			color: @silver-chalice;
+			display: flex;
+			justify-content: space-between;
+			padding-bottom: 15px;
+
+			@media (max-width: 500px) {
+				display: none;
+
+			}
+		}
+	}
+	main {
+		padding: 20px;
+		width: 70%;
+		margin: 0 auto;
+
+		@media (max-width: 500px) {
+			width: 100%;
+		}
+
+		section {
+			border-bottom: 1px solid @eggplant;
+			margin: 20px 0;
+		}
+
+		h3 {
+			font-size: 2rem;
+			margin-bottom: 15px;
+		}
+	}
+	footer {
+		.special();
+		padding: 20px 0;
+		width: 70%;
+		margin: 0 auto;
+
+		nav {
+
+			a {
+				text-decoration: none;
+				color: @silver-chalice;
+			}
+		}
+	}
+}

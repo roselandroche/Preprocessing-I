@@ -133,4 +133,120 @@ table {
 html,
 body {
   height: 100%;
+  font-size: 62.5%;
+}
+.container {
+  font-family: "Georgia Regular", "Palatino", serif;
+  background-color: #83677b;
+  color: #2e1114;
+  font-size: 1.6rem;
+}
+.container header {
+  font-family: "Georgia Regular", "Palatino", serif;
+  background-color: #2e1114;
+  color: #adadad;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 70%;
+  height: 340px;
+  padding: 20px 50px;
+  margin: 0 auto;
+}
+@media (max-width: 500px) {
+  .container header {
+    width: 100%;
+    height: auto;
+  }
+}
+.container header nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  padding-top: 15px;
+}
+.container header nav a {
+  text-decoration: none;
+  color: #adadad;
+}
+.container header .header-middle {
+  margin: 40px auto;
+}
+.container header .header-middle h1 {
+  font-size: 3rem;
+  padding-bottom: 16px;
+}
+.container header .header-middle h2 {
+  font-size: 2rem;
+  padding-top: 20px;
+  padding-bottom: 24px;
+}
+.container header .header-middle p {
+  color: #83677b;
+  padding-top: 20px;
+  padding-bottom: 36px;
+}
+.container header .contact-button {
+  display: none;
+}
+@media (max-width: 500px) {
+  .container header .contact-button {
+    display: block;
+    border-radius: 12px;
+    font-size: 1.6rem;
+    background-color: #adadad;
+    color: #2e1114;
+    width: 100%;
+    padding: 10px;
+  }
+}
+.container header .contact {
+  width: 100%;
+  color: #adadad;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 15px;
+}
+@media (max-width: 500px) {
+  .container header .contact {
+    display: none;
+  }
+}
+.container main {
+  padding: 20px;
+  width: 70%;
+  margin: 0 auto;
+}
+@media (max-width: 500px) {
+  .container main {
+    width: 100%;
+  }
+}
+.container main section {
+  border-bottom: 1px solid #64485c;
+  margin: 20px 0;
+}
+.container main h3 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+.container footer {
+  font-family: "Georgia Regular", "Palatino", serif;
+  background-color: #2e1114;
+  color: #adadad;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px 0;
+  width: 70%;
+  margin: 0 auto;
+}
+.container footer nav a {
+  text-decoration: none;
+  color: #adadad;
 }
